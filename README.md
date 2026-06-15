@@ -17,9 +17,8 @@ Run a sweeping audit across all configured environments. This will not modify or
 
 Bash
 v4reclaim scan --provider aws --region all
-Example Output:
 
-Plaintext
+Example Output:
 [INFO] Scanning AWS environment (All Regions)...
 [WARN] Found 3 unattached Elastic IPs in us-east-1.
        - 198.51.100.23 (Unattached for 45 days)
